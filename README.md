@@ -5,6 +5,10 @@ This is a tutorial to learn how to create C extensions for Python
 ```sh
 python setup.py build
 ```
+or
+```sh
+python setup.py install
+```
 
 ```sh
 cp build/lib.win-amd64-cpython-310/fake_numpy.cp310-win_amd64.pyd ./
